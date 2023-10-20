@@ -38,8 +38,7 @@ export const Header = Styled.div`
 
 export const SubHeader = Styled.div`
     font-size: 1.20em;
-    font-style: italic;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 `;
 
 export const ResumeEntryWrapper = Styled.div`
@@ -48,8 +47,8 @@ export const ResumeEntryWrapper = Styled.div`
 `;
 
 export const Description = Styled.div`
-    font-size: 2.2em;
-    font-weight: 720;
+    font-size: 20px;
+    text-align: left;
 `;
 
 export const SectionTitle = Styled.div`
