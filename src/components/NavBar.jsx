@@ -14,3 +14,24 @@ const LinkItem = Styled.li`
         display: inline-block;
     }
 `;
+
+const LinkList = Styled.ul`
+  padding: 0;
+  font-size: 2em;
+  margin: 1.0rem 0;
+  font-weight: 100;
+`;
+
+export const NavBar = () => (
+    <LinkList>
+        <LinkItem>
+            <Link to="/">Home</Link>
+        </LinkItem>
+        <LinkItem>
+            <Link to="/resume">Resume</Link>
+        </LinkItem>
+        <LinkItem>
+            <Link to="/projects">Projects</Link>
+        </LinkItem>
+    </LinkList>
+);

@@ -1,14 +1,14 @@
 import Styled from '@emotion/styled';
 
-export const ResumeWrapper = Styled.div`
+export const ProjectWrapper = Styled.div`
     background-color: #CD853F;
     background-size: cover;
     height: 100%;
-    overflow:hidden;
+    overflow: hidden;
 `;
 
 export const MainContent = Styled.div`
-    color:white;
+color:white;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -26,33 +26,19 @@ export const HeaderWrapper = Styled.div`
     justify-content: space-between;
 `;
 
-export const Dates = Styled.div`
-    line-height: 40px;
-    font-weight: 600;
-`;
-
-export const Header = Styled.div`
+export const ProjectHeader = Styled.div`
     font-size: 2.2em;
     font-weight: 720;
 `;
 
-export const SubHeader = Styled.div`
-    font-size: 1.20em;
-    font-style: italic;
-    padding-bottom:10px;
-`;
-
-export const ResumeEntryWrapper = Styled.div`
-    padding: 20px;
-    text-align: left;
+export const ProjectLink = Styled.div`
+    font-size: 30em;
 `;
 
 export const Description = Styled.div`
     font-size: 2.2em;
     font-weight: 720;
 `;
+export const ProjectMedia = Styled.div`
 
-export const SectionTitle = Styled.div`
-    font-size: 2.20em;
-    font-weight: 720;
 `;
