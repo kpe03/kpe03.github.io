@@ -15,7 +15,6 @@ code {
 
 .home {
   /* The image used */
-  background: url("") no-repeat 50% fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
@@ -23,7 +22,6 @@ code {
 
 .about {
 /* The image used */
-background: url("") no-repeat 50% fixed;
 background-size: cover;
 height: 100%;
 overflow: hidden;
@@ -31,7 +29,6 @@ overflow: hidden;
 
 .resume {
   /* The image used */
-  background: url("") no-repeat 50% fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
