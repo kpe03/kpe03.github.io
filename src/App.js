@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -8,7 +9,7 @@ import { Home } from './components/Home';
 import { Resume } from './components/Resume';
 
 const App = () => (
-    <Router>
+    <HashRouter>
       <React.Fragment>
         <Routes>
           <Route path="/resume" element={<Resume />}> </Route>
@@ -16,7 +17,7 @@ const App = () => (
           </Route>
         </Routes>
       </React.Fragment>
-    </Router>
+    </HashRouter>
   );
 
 export default App;
