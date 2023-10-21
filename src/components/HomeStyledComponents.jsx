@@ -27,6 +27,11 @@ export const Greeting = Styled.div`
     font-weight:720;
 `;
 
+export const Bio = Styled.div`
+    font-family: 'Roboto', sans-serif;
+    font-size:
+`;
+
 export const SocialLinks = Styled.div`
     font-size: 30em;
     & > a {

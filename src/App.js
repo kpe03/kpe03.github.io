@@ -7,8 +7,7 @@ import {
 import { Home } from './components/Home';
 import { Resume } from './components/Resume';
 
-function App() {
-  return (
+const App = () => (
     <Router>
       <React.Fragment>
         <Routes>
@@ -19,6 +18,5 @@ function App() {
       </React.Fragment>
     </Router>
   );
-}
 
 export default App;
