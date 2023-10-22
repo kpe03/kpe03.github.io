@@ -7,8 +7,18 @@ export const ProjectWrapper = Styled.div`
     overflow: hidden;
 `;
 
+export const Header = Styled.div`
+    font-size: 2.2em;
+    font-weight: 720;
+`;
+
+export const ProjectEntryWrapper = Styled.div`
+    padding: 20px;
+    text-align: left;
+`;
+
 export const MainContent = Styled.div`
-color:white;
+    color:white;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ResumeWrapper, MainContent, SectionTitle, ResumeEntryWrapper, HeaderWrapper, Header, Dates, SubHeader, Description } from './ResumeStyledComponents';
+import { ResumeWrapper, MainContent, SectionTitle, ResumeEntryWrapper, HeaderWrapper, Header, Dates, SubHeader, Description, FooterWrapper } from './ResumeStyledComponents';
 import { NavBar } from './NavBar';
 
 const resumeData = {
@@ -28,11 +28,12 @@ const ResumeEntry = ({header = '', subHeader = '', dates = '', description = ''}
     <ResumeEntryWrapper>
         <HeaderWrapper>
             <Header>{header}</Header>
-           
             <Dates>{dates}</Dates>
         </HeaderWrapper>
-        <SubHeader>{subHeader}</SubHeader>
-        <Description>{description}</Description>
+        <FooterWrapper>
+            <SubHeader>{subHeader}</SubHeader>
+            <Description>{description}</Description>
+        </FooterWrapper>
     </ResumeEntryWrapper>
 );
 

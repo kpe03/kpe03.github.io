@@ -1,15 +1,11 @@
 import React from "react";
-import Styled from '@emotion/styled';
-import { Link } from "react-router-dom";
-import { ProjectWrapper, HeaderWrapper, SectionTitle, Description } from "./ProjectsStyledComponents";
-import { MainContent } from "./HomeStyledComponents";
-import { Header } from "./ResumeStyledComponents";
+import { ProjectWrapper, HeaderWrapper, MainContent, Header, ProjectEntryWrapper, SectionTitle, Description } from "./ProjectsStyledComponents";
 import {NavBar} from './NavBar';
 
 const projectData =  {
     games: [
         {header: 'Farming Game', description: 'A game where players can grow crops, inspired by Stardew Valley. In development' +
-         'and is built in Python and Pygame library.'}
+         'and is built in Python and Pygame library.'},
     ]       
 };
 export const projectBuilder = (project) => {
@@ -19,10 +15,12 @@ export const projectBuilder = (project) => {
 }
 
 export const ProjectEntry = ({header = '', description = ''}) => {
-    <HeaderWrapper>
-        <Header>{header}</Header>
+    <ProjectEntryWrapper>
+        <HeaderWrapper>
+            <Header>{header}</Header>
+        </HeaderWrapper>
         <Description>{description}</Description>
-    </HeaderWrapper>
+    </ProjectEntryWrapper>
 }
 
 export const Projects = () => (
@@ -33,4 +31,4 @@ export const Projects = () => (
             {projectBuilder(projectData.games)}
         </MainContent>
     </ProjectWrapper>
-)
+);
