@@ -26,6 +26,11 @@ export const HeaderWrapper = Styled.div`
     justify-content: space-between;
 `;
 
+export const SectionTitle = Styled.div`
+    font-size: 2.20em;
+    font-weight: 720;
+`;
+
 export const ProjectHeader = Styled.div`
     font-size: 2.2em;
     font-weight: 720;

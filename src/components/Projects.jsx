@@ -1,9 +1,10 @@
 import React from "react";
 import Styled from '@emotion/styled';
 import { Link } from "react-router-dom";
-import { ProjectWrapper, HeaderWrapper, Description } from "./ProjectsStyledComponents";
+import { ProjectWrapper, HeaderWrapper, SectionTitle, Description } from "./ProjectsStyledComponents";
 import { MainContent } from "./HomeStyledComponents";
 import { Header } from "./ResumeStyledComponents";
+import {NavBar} from './NavBar';
 
 const projectData =  {
     games: [
@@ -26,6 +27,7 @@ export const ProjectEntry = ({header = '', description = ''}) => {
 
 export const Projects = () => (
     <ProjectWrapper>
+        <NavBar />
         <MainContent>
             <SectionTitle>Projects</SectionTitle>
             {projectBuilder(projectData.games)}
