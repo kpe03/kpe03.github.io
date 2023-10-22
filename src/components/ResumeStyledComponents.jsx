@@ -25,6 +25,10 @@ export const HeaderWrapper = Styled.div`
     display: flex;
     justify-content: space-between;
 `;
+export const FooterWrapper = Styled.div`
+    display: flex;
+    justify-content: space-between;
+`;
 
 export const Dates = Styled.div`
     line-height: 40px;
